@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>chevy-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1</version>
+	<version>0.0.3</version>
 	
 	<name>chevy-web-app</name>
 
