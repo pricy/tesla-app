@@ -7,11 +7,11 @@
 	<packaging>war</packaging>
 	<version>0.0.1</version>
 	
-	<name>maven-web-application</name>
+	<name>jeep-web-app</name>
 
 	<description>Maven Web Project for Java Project</description>
 	<organization>
-		<name>Landmark Technologies</name>
+		<name>jeep-web-app</name>
 		<url>http://landmarktechnologies.com/</url>
 	</organization>
 
@@ -107,7 +107,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>tesla</finalName>
+		<finalName>jeep-web-app</finalName>
 		
 		<plugins>
 			<plugin>
@@ -127,7 +127,7 @@
 				<configuration>
 					<scanIntervalSeconds>10</scanIntervalSeconds>
 					<webApp>
-						<contextPath>/maven-web-application</contextPath>
+						<contextPath>/jeep-web-app</contextPath>
 					</webApp>
 				</configuration>
 			</plugin>
@@ -140,7 +140,7 @@
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>true</downloadJavadocs>
 					<wtpversion>2.0</wtpversion>
-					<wtpContextName>maven-web-application</wtpContextName>
+					<wtpContextName>jeep-web-app</wtpContextName>
 				</configuration>
 			</plugin>
 			
